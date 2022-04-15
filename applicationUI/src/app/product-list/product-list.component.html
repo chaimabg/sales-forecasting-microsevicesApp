@@ -1,0 +1,18 @@
+<table class="tab-content">
+  <tr >
+    <th *ngFor="let header of headers">
+      {{header}}
+    </th>
+  </tr>
+
+  <tr *ngFor="let product of products">
+    <td>{{product.productName}}</td>
+    <td>{{product.productId}}</td>
+    <td>{{product.store}}</td>
+    <td>{{product.description}}</td>
+    <td>{{product.sales}} </td>
+    <td><a routerLink="/forecast" class="btn btn-light-primary font-weight-bold btn-sm px-4 font-size-base ml-2">Historical sales</a>
+    <a routerLink="/forecast" class="btn btn-light-primary font-weight-bold btn-sm px-4 font-size-base ml-2">Edit</a></td>
+  </tr>
+
+</table>
