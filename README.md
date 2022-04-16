@@ -1,10 +1,13 @@
 # Sales Forecasting application
 Developing a web application that helps predict future sales for fashion retailers.<br/>
 This project was generated with :
-   Application UI :[Angular CLI](https://github.com/angular/angular-cli).
-   Security Microservice : [NodeJs/ExpressJs](https://nodejs.org/en/)
-   Forcasting Microservice : [NodeJs/ExpressJs](https://nodejs.org/en/)
-   Api Gateway : [NodeJs/ExpressJs](https://nodejs.org/en/)
+
+<ul>
+   <li>Application UI :[Angular CLI] (https://github.com/angular/angular-cli). </li>
+   <li>Security Microservice : [NodeJs/ExpressJs] (https://nodejs.org/en/). </li>
+   <li>Forcasting Microservice : [NodeJs/ExpressJs] (https://nodejs.org/en/). </li>
+   <li>Api Gateway : [NodeJs/ExpressJs] (https://nodejs.org/en/). </li>
+</ul>
 
 ## Architecture choice
 Microservice architecture.
